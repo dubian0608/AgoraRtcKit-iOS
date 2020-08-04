@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F9B536F24C5808000013B70 /* CustomVideoSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9B536D24C5808000013B70 /* CustomVideoSource.h */; };
+		0F9B537024C5808000013B70 /* CustomVideoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9B536E24C5808000013B70 /* CustomVideoSource.m */; };
+		0F9B537724C5F27D00013B70 /* AgoraConstants.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F9B537624C5F27D00013B70 /* AgoraConstants.mm */; };
+		0FA93B5D24D006AC001E73AC /* AgoraMediaIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA93B5C24D006AC001E73AC /* AgoraMediaIO.m */; };
+		0FEA55D924D80C71002E792B /* AgoraRtcKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA55D824D80C71002E792B /* AgoraRtcKit-Info.plist */; };
+		0FEA69D024BEFC8E003C0399 /* AgoraRtcEngineKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA69CE24BEFC8E003C0399 /* AgoraRtcEngineKit.m */; };
+		0FEA69D424BEFCCC003C0399 /* AgoraRtcEngineKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FEA69D324BEFCCC003C0399 /* AgoraRtcEngineKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FEA69D624BEFD16003C0399 /* AgoraConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FEA69D524BEFD16003C0399 /* AgoraConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FEA69D824BEFD21003C0399 /* AgoraObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FEA69D724BEFD21003C0399 /* AgoraObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FEA69DB24BEFD2F003C0399 /* AgoraMediaIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FEA69D924BEFD2E003C0399 /* AgoraMediaIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FEA69DC24BEFD2F003C0399 /* AgoraMediaMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FEA69DA24BEFD2F003C0399 /* AgoraMediaMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FEA69DE24BEFD47003C0399 /* AgoraEnumerates.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FEA69DD24BEFD47003C0399 /* AgoraEnumerates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FEA69F124C05EED003C0399 /* AgoraObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA69EF24C05EED003C0399 /* AgoraObjects.m */; };
+		0FEA69F424C05F48003C0399 /* TransformHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEA69F224C05F48003C0399 /* TransformHelper.m */; };
+		0FEA69F524C05F48003C0399 /* TransformHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FEA69F324C05F48003C0399 /* TransformHelper.h */; };
+		8FE6953BE8DB792A8403B934 /* libPods-AgoraRtcKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 985A53D92B4BB465870F1161 /* libPods-AgoraRtcKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F85AC4C24D3B8B900DA4A83 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9B536D24C5808000013B70 /* CustomVideoSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomVideoSource.h; sourceTree = "<group>"; };
+		0F9B536E24C5808000013B70 /* CustomVideoSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomVideoSource.m; sourceTree = "<group>"; };
+		0F9B537324C5EBF400013B70 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		0F9B537624C5F27D00013B70 /* AgoraConstants.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AgoraConstants.mm; sourceTree = "<group>"; };
+		0FA93B5C24D006AC001E73AC /* AgoraMediaIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgoraMediaIO.m; sourceTree = "<group>"; };
+		0FEA55D824D80C71002E792B /* AgoraRtcKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AgoraRtcKit-Info.plist"; sourceTree = "<group>"; };
+		0FEA69B724BEF848003C0399 /* AgoraRtcKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AgoraRtcKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEA69C324BEF875003C0399 /* libthunderbolt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libthunderbolt.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEA69C524BEF879003C0399 /* thunderboltdynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = thunderboltdynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEA69CE24BEFC8E003C0399 /* AgoraRtcEngineKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgoraRtcEngineKit.m; sourceTree = "<group>"; };
+		0FEA69D324BEFCCC003C0399 /* AgoraRtcEngineKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraRtcEngineKit.h; sourceTree = "<group>"; };
+		0FEA69D524BEFD16003C0399 /* AgoraConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraConstants.h; sourceTree = "<group>"; };
+		0FEA69D724BEFD21003C0399 /* AgoraObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraObjects.h; sourceTree = "<group>"; };
+		0FEA69D924BEFD2E003C0399 /* AgoraMediaIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraMediaIO.h; sourceTree = "<group>"; };
+		0FEA69DA24BEFD2F003C0399 /* AgoraMediaMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraMediaMetadata.h; sourceTree = "<group>"; };
+		0FEA69DD24BEFD47003C0399 /* AgoraEnumerates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgoraEnumerates.h; sourceTree = "<group>"; };
+		0FEA69E424C056C2003C0399 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0FEA69E624C056D2003C0399 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		0FEA69E824C056E1003C0399 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0FEA69EA24C05EAF003C0399 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FEA69EC24C05EBD003C0399 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0FEA69EF24C05EED003C0399 /* AgoraObjects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgoraObjects.m; sourceTree = "<group>"; };
+		0FEA69F224C05F48003C0399 /* TransformHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformHelper.m; sourceTree = "<group>"; };
+		0FEA69F324C05F48003C0399 /* TransformHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformHelper.h; sourceTree = "<group>"; };
+		28BF23BD442CE7158C9532A4 /* Pods-AgoraRtcKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraRtcKit.release.xcconfig"; path = "Target Support Files/Pods-AgoraRtcKit/Pods-AgoraRtcKit.release.xcconfig"; sourceTree = "<group>"; };
+		985A53D92B4BB465870F1161 /* libPods-AgoraRtcKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AgoraRtcKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3387F0D6C3204C6E2A7E24A /* Pods-AgoraRtcKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgoraRtcKit.debug.xcconfig"; path = "Target Support Files/Pods-AgoraRtcKit/Pods-AgoraRtcKit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FEA69B424BEF848003C0399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE6953BE8DB792A8403B934 /* libPods-AgoraRtcKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FEA69AD24BEF848003C0399 = {
+			isa = PBXGroup;
+			children = (
+				0FEA69B924BEF848003C0399 /* AgoraRtcKit */,
+				0FEA69B824BEF848003C0399 /* Products */,
+				0FEA69C224BEF875003C0399 /* Frameworks */,
+				10E0F65CBB351B18AB303705 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0FEA69B824BEF848003C0399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FEA69B724BEF848003C0399 /* AgoraRtcKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FEA69B924BEF848003C0399 /* AgoraRtcKit */ = {
+			isa = PBXGroup;
+			children = (
+				0FEA69D324BEFCCC003C0399 /* AgoraRtcEngineKit.h */,
+				0FEA69CE24BEFC8E003C0399 /* AgoraRtcEngineKit.m */,
+				0FEA69D524BEFD16003C0399 /* AgoraConstants.h */,
+				0F9B537624C5F27D00013B70 /* AgoraConstants.mm */,
+				0FEA69D724BEFD21003C0399 /* AgoraObjects.h */,
+				0FEA69EF24C05EED003C0399 /* AgoraObjects.m */,
+				0FEA69D924BEFD2E003C0399 /* AgoraMediaIO.h */,
+				0FA93B5C24D006AC001E73AC /* AgoraMediaIO.m */,
+				0FEA69DA24BEFD2F003C0399 /* AgoraMediaMetadata.h */,
+				0FEA69DD24BEFD47003C0399 /* AgoraEnumerates.h */,
+				0FEA69F324C05F48003C0399 /* TransformHelper.h */,
+				0FEA69F224C05F48003C0399 /* TransformHelper.m */,
+				0F9B536D24C5808000013B70 /* CustomVideoSource.h */,
+				0F9B536E24C5808000013B70 /* CustomVideoSource.m */,
+				0FEA55D824D80C71002E792B /* AgoraRtcKit-Info.plist */,
+				0F9B537324C5EBF400013B70 /* module.modulemap */,
+			);
+			path = AgoraRtcKit;
+			sourceTree = "<group>";
+		};
+		0FEA69C224BEF875003C0399 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FEA69EC24C05EBD003C0399 /* CoreMedia.framework */,
+				0F85AC4C24D3B8B900DA4A83 /* AFNetworking.framework */,
+				0FEA69EA24C05EAF003C0399 /* Foundation.framework */,
+				0FEA69E824C056E1003C0399 /* libc++.tbd */,
+				0FEA69E624C056D2003C0399 /* libsqlite3.0.tbd */,
+				0FEA69E424C056C2003C0399 /* libz.tbd */,
+				0FEA69C324BEF875003C0399 /* libthunderbolt.a */,
+				0FEA69C524BEF879003C0399 /* thunderboltdynamic.framework */,
+				985A53D92B4BB465870F1161 /* libPods-AgoraRtcKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10E0F65CBB351B18AB303705 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3387F0D6C3204C6E2A7E24A /* Pods-AgoraRtcKit.debug.xcconfig */,
+				28BF23BD442CE7158C9532A4 /* Pods-AgoraRtcKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FEA69B224BEF848003C0399 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEA69DE24BEFD47003C0399 /* AgoraEnumerates.h in Headers */,
+				0FEA69D824BEFD21003C0399 /* AgoraObjects.h in Headers */,
+				0FEA69D424BEFCCC003C0399 /* AgoraRtcEngineKit.h in Headers */,
+				0FEA69DC24BEFD2F003C0399 /* AgoraMediaMetadata.h in Headers */,
+				0F9B536F24C5808000013B70 /* CustomVideoSource.h in Headers */,
+				0FEA69F524C05F48003C0399 /* TransformHelper.h in Headers */,
+				0FEA69DB24BEFD2F003C0399 /* AgoraMediaIO.h in Headers */,
+				0FEA69D624BEFD16003C0399 /* AgoraConstants.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FEA69B624BEF848003C0399 /* AgoraRtcKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FEA69BF24BEF848003C0399 /* Build configuration list for PBXNativeTarget "AgoraRtcKit" */;
+			buildPhases = (
+				672B025C39D7F5383B9BD96B /* [CP] Check Pods Manifest.lock */,
+				0FEA69B224BEF848003C0399 /* Headers */,
+				0FEA69B324BEF848003C0399 /* Sources */,
+				0FEA69B424BEF848003C0399 /* Frameworks */,
+				0FEA69B524BEF848003C0399 /* Resources */,
+				5A8AF6C164F6BD06515449F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgoraRtcKit;
+			productName = AgoraRtcKit;
+			productReference = 0FEA69B724BEF848003C0399 /* AgoraRtcKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FEA69AE24BEF848003C0399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = ZhangJi;
+				TargetAttributes = {
+					0FEA69B624BEF848003C0399 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 0FEA69B124BEF848003C0399 /* Build configuration list for PBXProject "AgoraRtcKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FEA69AD24BEF848003C0399;
+			productRefGroup = 0FEA69B824BEF848003C0399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FEA69B624BEF848003C0399 /* AgoraRtcKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FEA69B524BEF848003C0399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEA55D924D80C71002E792B /* AgoraRtcKit-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A8AF6C164F6BD06515449F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraRtcKit/Pods-AgoraRtcKit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgoraRtcKit/Pods-AgoraRtcKit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgoraRtcKit/Pods-AgoraRtcKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		672B025C39D7F5383B9BD96B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgoraRtcKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FEA69B324BEF848003C0399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEA69F424C05F48003C0399 /* TransformHelper.m in Sources */,
+				0FA93B5D24D006AC001E73AC /* AgoraMediaIO.m in Sources */,
+				0F9B537024C5808000013B70 /* CustomVideoSource.m in Sources */,
+				0FEA69D024BEFC8E003C0399 /* AgoraRtcEngineKit.m in Sources */,
+				0F9B537724C5F27D00013B70 /* AgoraConstants.mm in Sources */,
+				0FEA69F124C05EED003C0399 /* AgoraObjects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0FEA69BD24BEF848003C0399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0FEA69BE24BEF848003C0399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0FEA69C024BEF848003C0399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3387F0D6C3204C6E2A7E24A /* Pods-AgoraRtcKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/spidercrab/libs\"",
+					"\"$(PODS_ROOT)/SpiderCrab/libs\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AliyunOSSiOS\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FMDB\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public/thunder\"",
+					"\"$(SRCROOT)/AgoraRtcKit\"",
+					"\"$(SRCROOT)/../ios/src/include\"",
+				);
+				INFOPLIST_FILE = "AgoraRtcKit/AgoraRtcKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "$(SRCROOT)/AgoraRtcKit/module.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"AliyunOSSiOS\"",
+					"-l\"CocoaAsyncSocket\"",
+					"-l\"CocoaLumberjack\"",
+					"-l\"FMDB\"",
+					"-l\"SSZipArchive\"",
+					"-l\"argo\"",
+					"-l\"audio_dsp_static-iOS\"",
+					"-l\"audio_static\"",
+					"-l\"audiocodec_static\"",
+					"-l\"c++\"",
+					"-l\"crypto\"",
+					"-l\"dwx265\"",
+					"-l\"gslb\"",
+					"-l\"ittiamhevc\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"ssl\"",
+					"-l\"thunderbolt\"",
+					"-l\"transengine-full\"",
+					"-l\"x264\"",
+					"-l\"yuv\"",
+					"-l\"yyaccesstranssdklib\"",
+					"-l\"yympeg\"",
+					"-l\"yyservicesdk\"",
+					"-l\"yyvideolibstatic_nobeauty\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SpiderCrab\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-read_only_relocs",
+					suppress,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Frank.AgoraRtcKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FEA69C124BEF848003C0399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28BF23BD442CE7158C9532A4 /* Pods-AgoraRtcKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/spidercrab/libs\"",
+					"\"$(PODS_ROOT)/SpiderCrab/libs\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AliyunOSSiOS\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaLumberjack\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FMDB\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public/thunder\"",
+					"\"$(SRCROOT)/AgoraRtcKit\"",
+					"\"$(SRCROOT)/../ios/src/include\"",
+				);
+				INFOPLIST_FILE = "AgoraRtcKit/AgoraRtcKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "$(SRCROOT)/AgoraRtcKit/module.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"AliyunOSSiOS\"",
+					"-l\"CocoaAsyncSocket\"",
+					"-l\"CocoaLumberjack\"",
+					"-l\"FMDB\"",
+					"-l\"SSZipArchive\"",
+					"-l\"argo\"",
+					"-l\"audio_dsp_static-iOS\"",
+					"-l\"audio_static\"",
+					"-l\"audiocodec_static\"",
+					"-l\"c++\"",
+					"-l\"crypto\"",
+					"-l\"dwx265\"",
+					"-l\"gslb\"",
+					"-l\"ittiamhevc\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"ssl\"",
+					"-l\"thunderbolt\"",
+					"-l\"transengine-full\"",
+					"-l\"x264\"",
+					"-l\"yuv\"",
+					"-l\"yyaccesstranssdklib\"",
+					"-l\"yympeg\"",
+					"-l\"yyservicesdk\"",
+					"-l\"yyvideolibstatic_nobeauty\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SpiderCrab\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-read_only_relocs",
+					suppress,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Frank.AgoraRtcKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FEA69B124BEF848003C0399 /* Build configuration list for PBXProject "AgoraRtcKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEA69BD24BEF848003C0399 /* Debug */,
+				0FEA69BE24BEF848003C0399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FEA69BF24BEF848003C0399 /* Build configuration list for PBXNativeTarget "AgoraRtcKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEA69C024BEF848003C0399 /* Debug */,
+				0FEA69C124BEF848003C0399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FEA69AE24BEF848003C0399 /* Project object */;
+}
