@@ -2,13 +2,8 @@ Pod::Spec.new do |s|
         s.name         = "AgoraRtcKit-iOS"
         s.version      = "1.0.0"
         s.summary      = "Warp Thunder SDK to AgoraRtcKit type"
-        s.license      = {
-        :type => 'Copyright',
-        :text => <<-LICENSE
-        Copyright 2005-2019 YY Inc., All rights reserved.
-        LICENSE
-        }
-
+        s.license      = { :type => 'MIT', :file => 'LICENSE' }
+        
         s.homepage     = "https://github.com/dubian0608/AgoraRtcKit-iOS"
         s.author           = { 'dubian0608' => 'zhangji2@yy.com' }
         s.source       = { :git => 'https://github.com/dubian0608/AgoraRtcKit-iOS.git', :tag => s.version.to_s }
