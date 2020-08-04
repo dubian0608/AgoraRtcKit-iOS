@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
         s.source       = { :git => 'https://github.com/dubian0608/AgoraRtcKit-iOS.git', :tag => s.version.to_s }
         s.ios.deployment_target = '8.0'
         s.dependency 'thunder', '2.9.12'
-        ss.source_files = 'AgoraRtcKit/**'
+        s.source_files = 'AgoraRtcKit/**'
 end
 
